@@ -19,6 +19,7 @@ function Layout({
     <>
       <Helmet>
         <title>{title ? title + " || Hilmi" : "Hilmi"}</title>
+        <link rel="icon" type="image/png" href="rutes.svg" sizes="16x16" />
         <meta
           name="description"
           content={description ? description : "Created by Routes.ID"}

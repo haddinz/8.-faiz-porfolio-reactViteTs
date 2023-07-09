@@ -10,7 +10,7 @@ const container = {
 };
 
 const item = {
-  hidden: { y: 900 },
+  hidden: { y: '110vh' },
   show: {
     y: 0,
     transition: {
@@ -40,7 +40,7 @@ const animateLetter = {
 
 const Loader = ({ setLoading }: { setLoading: (value: boolean) => void }) => {
   return (
-    <div className="w-full h-[100vh] bg-gray-100 absolute top-0 left-0 z-50 overflow-hidden">
+    <div className="w-full h-[100vh] bg-amber-200 absolute top-0 left-0 z-50 overflow-hidden">
       <motion.div
         className="w-full h-full relative flex justify-center items-start"
         variants={container}
